@@ -1,4 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faYoutube, faFacebook, faTwitter, faInstagram, faTiktok, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import '../styles/custom.css'
 
 function Footer() {
   return (
@@ -9,10 +12,27 @@ function Footer() {
             <h3>Cermee Bonsai</h3>
           </Col>
           <Col lg={4} className="d-flex justify-content-center">
-            <p>© Copyrights 2023 - CermeeBonsai | All rights reserved</p>
+            <p>Desa Cermee, Kecamatan Cermee, Kabupaten Bondowoso, Jawa Timur, Indonesia</p>
           </Col>
           <Col lg={4} className="d-flex justify-content-center">
-            <p>A</p>
+            <a href="" className="custom-link">
+              <FontAwesomeIcon icon={faYoutube} className="mx-2" size="lg" />
+            </a>
+            <a href="" className="custom-link">
+              <FontAwesomeIcon icon={faFacebook} className="mx-2" size="lg" />
+            </a>
+            <a href="" className="custom-link">
+              <FontAwesomeIcon icon={faTwitter} className="mx-2" size="lg" />
+            </a>
+            <a href="" className="custom-link">
+              <FontAwesomeIcon icon={faInstagram} className="mx-2" size="lg" />
+            </a>
+            <a href="" className="custom-link">
+              <FontAwesomeIcon icon={faTiktok} className="mx-2" size="lg" />
+            </a>
+            <a href="" className="custom-link">
+              <FontAwesomeIcon icon={faWhatsapp} className="mx-2" size="lg" />
+            </a>
           </Col>
         </Row>
       </Container>

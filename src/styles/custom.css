@@ -4,9 +4,35 @@
 }
 
 .navbar{
-    background-color: #5caa95;
+    background-color: #358874;
+}
+
+#home {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#galery{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 40vh;
 }
 
 .footer{
     background-color: #358874;
 }
+
+.custom-link {
+    color: inherit;
+    text-decoration: none;
+}
+  
+.custom-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+  
