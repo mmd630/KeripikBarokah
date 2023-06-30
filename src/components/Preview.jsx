@@ -3,19 +3,21 @@ import {Container, Row, Col } from 'react-bootstrap'
 
 function Preview() {
   return (
-    <Container className='pt-3' id="preview">
-      <Row> 
-        <Col lg={6} id="test1">
-          <h3>Video Youtube</h3>
-          <div className="embed-responsive embed-responsive-16by9">
-            <iframe title="Embeds Page" className="embed-responsive-item" src=""></iframe>
-          </div>
-        </Col>
-        <Col lg={6} id="test2">
-          <h3>Isi apakek</h3>
-        </Col>
-      </Row>
-    </Container>
+    <div id="preview">
+      <Container>
+        <Row> 
+          <Col className="d-flex justify-content-center p-5" lg={6}>
+            <div>
+              <iframe width="560" height="315"  src="https://www.youtube.com/embed/vihWettcK_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            </div>
+          </Col>
+          <Col className="p-5" lg={6}>
+            <h3>Isi apakek</h3>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+    
   )
 }
 

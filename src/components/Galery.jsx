@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel';
+import CarouselPic from '../assets/BonsaiDummy.jpg'
 
 function Galery(){
   return (
@@ -10,7 +11,7 @@ function Galery(){
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src=""
+            src={CarouselPic}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -22,7 +23,7 @@ function Galery(){
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src=""
+            src={CarouselPic}
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -34,7 +35,7 @@ function Galery(){
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src=""
+            src={CarouselPic}
             alt="Third slide"
           />
           <Carousel.Caption>
@@ -44,6 +45,7 @@ function Galery(){
             </p>
           </Carousel.Caption>
         </Carousel.Item>
+        
       </Carousel>
     </Container>
   )

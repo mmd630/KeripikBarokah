@@ -8,12 +8,15 @@ function Footer() {
     <div className="footer">
       <Container>
         <Row className="p-5">
+          
           <Col lg={4} className="d-flex justify-content-center">
             <h3>Cermee Bonsai</h3>
           </Col>
+
           <Col lg={4} className="d-flex justify-content-center">
             <p>Desa Cermee, Kecamatan Cermee, Kabupaten Bondowoso, Jawa Timur, Indonesia</p>
           </Col>
+          
           <Col lg={4} className="d-flex justify-content-center">
             <a href="" className="custom-link">
               <FontAwesomeIcon icon={faYoutube} className="mx-2" size="lg" />
@@ -34,6 +37,7 @@ function Footer() {
               <FontAwesomeIcon icon={faWhatsapp} className="mx-2" size="lg" />
             </a>
           </Col>
+          
         </Row>
       </Container>
     </div>
