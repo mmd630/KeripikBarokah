@@ -8,8 +8,8 @@ function NavigationBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav>
-                        <Nav.Link href="#galery"><b>Galeri Toko</b></Nav.Link>
                         <Nav.Link href="#home"><b>Tentang Toko</b></Nav.Link>
+                        <Nav.Link href="#galery"><b>Galeri Toko</b></Nav.Link>
                         <Nav.Link href="#contact"><b>Informasi Kontak</b></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

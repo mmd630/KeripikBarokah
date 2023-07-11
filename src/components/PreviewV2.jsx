@@ -18,7 +18,7 @@ function PreviewV2() {
               <Card.Body className='preview-card-body'>
                 <Card.Title>Ibu ...</Card.Title>
                 <Card.Text>
-                  
+                  ssssssssssssss
                 </Card.Text>
                 <Button href="" variant="light">Hubungi saya</Button>
               </Card.Body>
