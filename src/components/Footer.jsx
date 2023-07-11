@@ -10,7 +10,7 @@ function Footer() {
         <Row className="p-5">
           
           <Col lg={4} className="d-flex justify-content-center">
-            <h3>Keripik Cermee</h3>
+            <h3><b>Keripik Cermee</b></h3>
           </Col>
 
           <Col lg={4} className="d-flex justify-content-center">

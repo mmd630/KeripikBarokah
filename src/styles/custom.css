@@ -1,6 +1,11 @@
-.background{
+.background1{
     height: 100%;
     background-color: #ffeccf;
+}
+
+.background2{
+    height: 100%;
+    background-color: #358874;
 }
 
 .navbar{
@@ -8,7 +13,7 @@
 }
 
 #home {
-    margin: 5px 10%;
+    margin: 25px 10%;
     padding: 5px;
 }
 
@@ -17,10 +22,7 @@
 }
 
 #galery{
-    margin-top: 20px;
-    margin-bottom: 5px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 25px;
 }
 
 .carousel-img{
@@ -29,12 +31,23 @@
 }
 
 #preview{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 25px;
+    margin: 25px 10%;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.preview-card{
+    width: 20rem;
+}
+
+.preview-card-body{
+    background-color: #358874;
+}
+
+.shop{
+    padding: 25px;
 }
 
 .footer{

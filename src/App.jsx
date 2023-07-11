@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className='background'>
+      <div className='background1'>
         <NavigationBar/>
         <div className='content'>
           <Home/>
