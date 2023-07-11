@@ -3,7 +3,8 @@ import './styles/custom.css'
 import NavigationBar from './components/NavigationBar'
 import Home from './components/Home'
 import Carousel from './components/Galery'
-import Preview from './components/Preview'
+// import PreviewV1 from './components/PreviewV1'
+import PreviewV2 from './components/PreviewV2'
 import Footer from './components/Footer'
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <div className='content'>
           <Home/>
           <Carousel/>
-          <Preview/>
+          <PreviewV2/>
         </div>
         <Footer/>
       </div>

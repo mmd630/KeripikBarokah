@@ -5,12 +5,12 @@ import '../styles/custom.css'
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <Container>
         <Row className="p-5">
           
           <Col lg={4} className="d-flex justify-content-center">
-            <h3>Cermee Bonsai</h3>
+            <h3>Keripik Cermee</h3>
           </Col>
 
           <Col lg={4} className="d-flex justify-content-center">
@@ -18,15 +18,15 @@ function Footer() {
           </Col>
           
           <Col lg={4} className="d-flex justify-content-center">
-            <a href="" className="custom-link">
+            {/* <a href="" className="custom-link">
               <FontAwesomeIcon icon={faYoutube} className="mx-2" size="lg" />
-            </a>
+            </a> */}
             <a href="" className="custom-link">
               <FontAwesomeIcon icon={faFacebook} className="mx-2" size="lg" />
             </a>
-            <a href="" className="custom-link">
+            {/* <a href="" className="custom-link">
               <FontAwesomeIcon icon={faTwitter} className="mx-2" size="lg" />
-            </a>
+            </a> */}
             <a href="" className="custom-link">
               <FontAwesomeIcon icon={faInstagram} className="mx-2" size="lg" />
             </a>

@@ -5,44 +5,42 @@ import CarouselPic from '../assets/BonsaiDummy.jpg'
 
 function Galery(){
   return (
-    <Container id="galery">
-      <Carousel>
+    <Container >
+      <Carousel id="galery">
 
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src={CarouselPic}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Preview1</h3>
+            <p>Ini Produk 1</p>
           </Carousel.Caption>
         </Carousel.Item>
         
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src={CarouselPic}
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Preview2</h3>
+            <p>Ini Produk 2</p>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src={CarouselPic}
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Preview3</h3>
+            <p>Ini Produk 3</p>
           </Carousel.Caption>
         </Carousel.Item>
         
