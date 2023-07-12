@@ -1,5 +1,11 @@
 .navbar{
+    /* background-color: #d9aa64; */
     background-color: #ffc685;
+    /* background-color: #f3ecd2; */
+}
+
+.navlink:hover{
+    color: orangered !important;
 }
 
 .carousel-img{
@@ -9,19 +15,25 @@
 
 #product {
     margin: 25px 10%;
-    padding: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .product-photo{
+    border-radius: 25px;
     width: 75%;
 }
 
 #seller {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     margin: 25px 10%;
-    padding: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .seller-photo{
+    border-radius: 25px;
     width: 75%;
 }
 
@@ -42,13 +54,13 @@
 }
 
 .whatsapp {
-    width: 150px; /* Adjust the width as per your requirement */
-    height: 150px; /* Adjust the height as per your requirement */
+    width: 150px; 
+    height: 150px; 
 }
   
 .shoppe {
-    width: 150px; /* Adjust the width as per your requirement */
-    height: 150px; /* Adjust the height as per your requirement */
+    width: 150px; 
+    height: 150px; 
 }
 
 .footer{

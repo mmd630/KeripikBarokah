@@ -11,9 +11,10 @@ function App() {
 
   return (
     <>
-     
+
+    <Carousel/>
       <Navbar/>
-      <Carousel/>
+      
       <div className='content'>
         <Product/>
         <Seller/>

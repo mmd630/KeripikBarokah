@@ -10,7 +10,7 @@ function Footer() {
         <Row className="p-5">
           
           <Col lg={4} className="d-flex justify-content-center">
-            <h3><b>Keripik Cermee</b></h3>
+            <h3><b>Keripik Barokah</b></h3>
           </Col>
 
           <Col lg={4} className="d-flex justify-content-center">
@@ -30,9 +30,9 @@ function Footer() {
             <a href="" className="custom-link">
               <FontAwesomeIcon icon={faInstagram} className="mx-2" size="lg" />
             </a>
-            <a href="" className="custom-link">
+            {/* <a href="" className="custom-link">
               <FontAwesomeIcon icon={faTiktok} className="mx-2" size="lg" />
-            </a>
+            </a> */}
             <a href="" className="custom-link">
               <FontAwesomeIcon icon={faWhatsapp} className="mx-2" size="lg" />
             </a>

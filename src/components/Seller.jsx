@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Icon from '../assets/BonsaiCartoon.png'
+import SellerPhoto from '../assets/Seller.jpg'
 import '../styles/custom.css'
 
 function Product() {
@@ -10,7 +10,7 @@ function Product() {
         <Row>
 
           <Col className="d-flex justify-content-center align-self-center" lg={6}>
-            <img className="seller-photo" src={Icon} alt="Ibu ..."/>
+            <img className="seller-photo" src={SellerPhoto} alt="Ibu ..."/>
           </Col>
 
           <Col className="align-self-center p-5" lg={6}>
