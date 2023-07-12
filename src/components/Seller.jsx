@@ -14,8 +14,8 @@ function Product() {
           </Col>
 
           <Col className="align-self-center p-5" lg={6}>
-            <h3>Tentang Toko</h3>
-            <p>Toko Barokah didirikan oleh Ibu Alfi Zatin pada tahun 2019, berawal dari ide beliau untuk memanfaatkan kebun singkong pribadinya. Usaha ini terdiri atas 5 orang yang bertanggung jawab untuk mengupas, memasak, dan mengemas singkong beserta bumbunya dan pemasaran.</p>
+            <h3>Tentang Penjual</h3>
+            <p>Kami adalah Toko Keripik di Jawa Timur yang didedikasikan sebagai tempat penyedia keripik berkualitas tinggi yang dapat memberikan pengalaman memukau bagi para pecinta makanan ringan.</p>
           </Col>
             
         </Row>
