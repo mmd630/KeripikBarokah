@@ -9,7 +9,7 @@ function CarouselProduk(){
 
         <Carousel.Item>
           <img
-            className="d-block carousel-img"
+            className="d-block w-100"
             src={CarouselPic}
             alt="First slide"
           />
@@ -21,7 +21,7 @@ function CarouselProduk(){
         
         <Carousel.Item>
           <img
-            className="d-block carousel-img"
+            className="d-block w-100"
             src={CarouselPic}
             alt="Second slide"
           />
@@ -33,7 +33,7 @@ function CarouselProduk(){
 
         <Carousel.Item>
           <img
-            className="d-block carousel-img"
+            className="d-block w-100"
             src={CarouselPic}
             alt="Third slide"
           />
@@ -45,8 +45,7 @@ function CarouselProduk(){
         
         <Carousel.Item>
           <img
-            className="d-block carousel-img"
-            src={CarouselPic}
+            className="d-block w-100"
             alt="Third slide"
           />
           <Carousel.Caption>

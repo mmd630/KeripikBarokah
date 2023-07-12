@@ -9,7 +9,7 @@ function NavigationBar() {
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav>
                         <Nav.Link href="#product" className="navlink"><b>Tentang Produk</b></Nav.Link>
-                        <Nav.Link href="#seller" className="navlink"><b>Tentang Penjual</b></Nav.Link>
+                        <Nav.Link href="#seller" className="navlink"><b>Tentang Toko</b></Nav.Link>
                         <Nav.Link href="#information" className="navlink"><b>Informasi Toko</b></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
