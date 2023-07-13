@@ -11,9 +11,14 @@ function Product() {
         <Row>
 
           <Col className="align-self-center p-5" lg={6}>
-            <h3>Tentang Produk</h3>
-            <p>Keripik Barokah adalah keripik singkong rumahan yang dibuat dengan menggunakan bahan utama singkong pilihan yang diolah secara tradisional tanpa menggunakan bahan pengawet.</p>
-            <p>Keripik ini hadir dengan 4 varian rasa yang beragam, yaitu manis, pedas manis, original bawang, dan suka-suka (Balado).</p>
+            <Container className='d-flex justify-content-start'>
+              <h3 className='content-header'>Tentang Produk</h3>
+            </Container>
+            {/* U can use justify-content */}
+            <Container className=''>
+              <p>Keripik Barokah adalah keripik singkong rumahan yang dibuat dengan menggunakan bahan utama singkong pilihan yang diolah secara tradisional tanpa menggunakan bahan pengawet.</p>
+              <p>Keripik ini hadir dengan 4 varian rasa yang beragam, yaitu manis, pedas manis, original bawang, dan suka-suka (Balado).</p>
+            </Container>
           </Col>
 
           <Col className="d-flex justify-content-center align-self-center" lg={6}>

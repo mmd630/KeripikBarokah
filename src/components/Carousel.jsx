@@ -15,7 +15,6 @@ function CarouselProduk(){
           />
           <Carousel.Caption>
             <h3 className='carousel-caption'>Manis</h3>
-            {/* <p>Ini Produk 1</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         

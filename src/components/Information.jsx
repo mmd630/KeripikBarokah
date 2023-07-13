@@ -14,7 +14,7 @@ function Information() {
 
         <Row>
           <Container className='d-flex justify-content-center'>
-            <h3>Informasi Toko</h3>
+            <h3 className='content-header'>Informasi Toko</h3>
           </Container>
         </Row>
 
@@ -36,7 +36,7 @@ function Information() {
                     Jalan ...
                     Desa Cermee, Kecamatan Cermee, Kabupaten Bondowoso
                   </Card.Text>
-                  <Button href="https://goo.gl/maps/e7brw7cSjQnSMU4k6" variant="light">Menuju Lokasi</Button>
+                  <Button href="https://goo.gl/maps/mkjBNdfvSKNFFqTe7" variant="light">Menuju Lokasi</Button>
                 </Card.Body>
               </Card>
             </Container>

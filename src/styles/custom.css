@@ -11,6 +11,15 @@
     border-bottom: 1px solid black;
 }
 
+.content-header{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.justify-content {
+    text-align: justify;
+  }
+
 #product {
     margin: 25px 10%;
     padding-top: 50px;
@@ -22,8 +31,8 @@
 }
 
 #seller {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     margin: 25px 10%;
     padding-top: 50px;
     padding-bottom: 50px;

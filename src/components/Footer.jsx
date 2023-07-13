@@ -13,8 +13,8 @@ function Footer() {
             <h3><b>Keripik Barokah</b></h3>
           </Col>
 
-          <Col lg={4} className="d-flex justify-content-center">
-            <p>Desa Cermee, Kecamatan Cermee, Kabupaten Bondowoso, Jawa Timur, Indonesia</p>
+          <Col lg={4} className="d-flex justify-content-center align-self-center">
+            <p className="text-center">Desa Cermee, Kecamatan Cermee, Kabupaten Bondowoso, Jawa Timur, Indonesia</p>
           </Col>
           
           <Col lg={4} className="d-flex justify-content-center">
