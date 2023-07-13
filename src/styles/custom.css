@@ -22,8 +22,8 @@
 
 #product {
     margin: 25px 10%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .process-photo{
@@ -34,8 +34,8 @@
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin: 25px 10%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .seller-photo{
