@@ -1,8 +1,13 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import ProductPhoto from '../assets/Product.jpg'
-import '../styles/custom.css'
 import Carousel from 'react-bootstrap/Carousel';
+import Process1 from '../assets/Process1.jpg'
+import Process2 from '../assets/Process2.png'
+// import Process3 from '../assets/Process3.jpg'
+import Process4 from '../assets/Process4.png'
+import Process5 from '../assets/Process5.png'
+import Process6 from '../assets/Process6.png'
+import '../styles/custom.css'
 
 function Product() {
   return (
@@ -27,7 +32,7 @@ function Product() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 process-photo"
-                  src={ProductPhoto}
+                  src={Process1}
                   alt="First slide"
                 />
               </Carousel.Item>
@@ -35,15 +40,23 @@ function Product() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 process-photo"
-                  src={ProductPhoto}
+                  src={Process2}
                   alt="Second slide"
                 />
               </Carousel.Item>
 
+              {/* <Carousel.Item>
+                <img
+                  className="d-block w-100 process-photo"
+                  src={Process3}
+                  alt="Third slide"
+                />
+              </Carousel.Item> */}
+
               <Carousel.Item>
                 <img
                   className="d-block w-100 process-photo"
-                  src={ProductPhoto}
+                  src={Process4}
                   alt="Third slide"
                 />
               </Carousel.Item>
@@ -51,7 +64,15 @@ function Product() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 process-photo"
-                  src={ProductPhoto}
+                  src={Process5}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 process-photo"
+                  src={Process6}
                   alt="Third slide"
                 />
               </Carousel.Item>

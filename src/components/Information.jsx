@@ -33,8 +33,9 @@ function Information() {
                 <Card.Body className='location-card-body'>
                   <Card.Title>Toko Keripik</Card.Title>
                   <Card.Text>
-                    Jalan ...
-                    Desa Cermee, Kecamatan Cermee, Kabupaten Bondowoso
+                    Jalan Raya Cermee, RT 17,
+                    Desa Cermee, Kecamatan Cermee, Kabupaten Bondowoso,
+                    Jawa Timur Indonesia
                   </Card.Text>
                   <Button href="https://goo.gl/maps/mkjBNdfvSKNFFqTe7" variant="light">Menuju Lokasi</Button>
                 </Card.Body>
