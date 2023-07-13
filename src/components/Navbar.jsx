@@ -5,8 +5,7 @@ function NavigationBar() {
     return (
         <Navbar className='navbar py-3' expand="lg" sticky="top">
             <Container>
-                <Navbar.Brand href="#product">
-                    <img src={Logo} alt="" className="logo"/>
+                <Navbar.Brand href="#home">
                     <b>Keripik Barokah</b>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

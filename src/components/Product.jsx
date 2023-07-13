@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import ProductPhoto from '../assets/Product.jpg'
 import '../styles/custom.css'
+import Carousel from 'react-bootstrap/Carousel';
 
 function Product() {
   return (
@@ -16,7 +17,41 @@ function Product() {
           </Col>
 
           <Col className="d-flex justify-content-center align-self-center" lg={6}>
-            <img className="product-photo" src={ProductPhoto} alt="Keripik Singkong"/>
+            <Carousel className='w-75'>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 process-photo"
+                  src={ProductPhoto}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 process-photo"
+                  src={ProductPhoto}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 process-photo"
+                  src={ProductPhoto}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 process-photo"
+                  src={ProductPhoto}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+
+            </Carousel>
           </Col>
             
         </Row>

@@ -12,9 +12,8 @@ function App() {
   return (
     <>
 
-    <Carousel/>
+      <Carousel/>
       <Navbar/>
-      
       <div className='content'>
         <Product/>
         <Seller/>

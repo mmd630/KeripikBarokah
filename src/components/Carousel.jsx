@@ -5,7 +5,7 @@ import CarouselPic from '../assets/Product1.jpg'
 function CarouselProduk(){
   return (
 
-      <Carousel id="galery">
+      <Carousel id="home">
 
         <Carousel.Item>
           <img
@@ -14,8 +14,8 @@ function CarouselProduk(){
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Manis</h3>
-            <p>Ini Produk 1</p>
+            <h3 className='carousel-caption'>Manis</h3>
+            {/* <p>Ini Produk 1</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         
@@ -26,8 +26,7 @@ function CarouselProduk(){
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Pedas Manis</h3>
-            <p>Ini Produk 2</p>
+            <h3 className='carousel-caption'>Pedas Manis</h3>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -38,8 +37,7 @@ function CarouselProduk(){
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Original Bawang</h3>
-            <p>Ini Produk 3</p>
+            <h3 className='carousel-caption'>Original Bawang</h3>
           </Carousel.Caption>
         </Carousel.Item>
         
@@ -50,8 +48,7 @@ function CarouselProduk(){
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Suka-Suka</h3>
-            <p>Ini Produk 4</p>
+            <h3 className='carousel-caption'>Suka-Suka (Balado)</h3>
           </Carousel.Caption>
         </Carousel.Item>
 
