@@ -27,7 +27,7 @@ function Footer() {
             {/* <a href="" className="custom-link">
               <FontAwesomeIcon icon={faTwitter} className="mx-2" size="lg" />
             </a> */}
-            <a href="" className="custom-link">
+            <a href="https://www.instagram.com/kripiksingkongbarokah/" className="custom-link">
               <FontAwesomeIcon icon={faInstagram} className="mx-2" size="lg" />
             </a>
             {/* <a href="" className="custom-link">

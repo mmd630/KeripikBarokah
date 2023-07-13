@@ -21,7 +21,7 @@ function Information() {
         <Row>
 
           {/* Offline */}
-          <Col className="" lg={6}>
+          <Col className="mt-3" lg={6}>
 
             <Container className='d-flex justify-content-center'>
               <h3>Offline</h3>
@@ -36,7 +36,7 @@ function Information() {
                     Jalan ...
                     Desa Cermee, Kecamatan Cermee, Kabupaten Bondowoso
                   </Card.Text>
-                  <Button href="" variant="light">Menuju Lokasi</Button>
+                  <Button href="https://goo.gl/maps/e7brw7cSjQnSMU4k6" variant="light">Menuju Lokasi</Button>
                 </Card.Body>
               </Card>
             </Container>
@@ -44,7 +44,7 @@ function Information() {
           </Col>
           
           {/* Online */}
-          <Col className="" lg={6}>
+          <Col className="mt-3" lg={6}>
 
             <Container className='d-flex justify-content-center'>
               <h3>Online</h3>
