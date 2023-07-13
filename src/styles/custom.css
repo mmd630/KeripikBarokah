@@ -5,7 +5,8 @@
 }
 
 .navlink:hover{
-    color: orangered !important;
+    border-bottom: 1px solid black;
+    /* color: orangered !important; */
 }
 
 .carousel-img{
