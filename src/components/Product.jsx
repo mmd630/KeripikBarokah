@@ -2,8 +2,8 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel';
 import Process1 from '../assets/Process1.jpg'
-import Process2 from '../assets/Process2.png'
-// import Process3 from '../assets/Process3.jpg'
+import Process2 from '../assets/Process2.jpg'
+import Process3 from '../assets/Process3.png'
 import Process4 from '../assets/Process4.png'
 import Process5 from '../assets/Process5.png'
 import Process6 from '../assets/Process6.png'
@@ -45,19 +45,19 @@ function Product() {
                 />
               </Carousel.Item>
 
-              {/* <Carousel.Item>
+              <Carousel.Item>
                 <img
                   className="d-block w-100 process-photo"
                   src={Process3}
                   alt="Third slide"
                 />
-              </Carousel.Item> */}
+              </Carousel.Item>
 
               <Carousel.Item>
                 <img
                   className="d-block w-100 process-photo"
                   src={Process4}
-                  alt="Third slide"
+                  alt="Fourth slide"
                 />
               </Carousel.Item>
 
@@ -65,7 +65,7 @@ function Product() {
                 <img
                   className="d-block w-100 process-photo"
                   src={Process5}
-                  alt="Third slide"
+                  alt="Fifth slide"
                 />
               </Carousel.Item>
 
@@ -73,7 +73,7 @@ function Product() {
                 <img
                   className="d-block w-100 process-photo"
                   src={Process6}
-                  alt="Third slide"
+                  alt="Sixth slide"
                 />
               </Carousel.Item>
 
