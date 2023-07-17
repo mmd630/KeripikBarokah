@@ -55,7 +55,7 @@ function Information() {
               <Row className='align-items-center'>
                 <Col className='d-flex flex-column align-items-center' lg={12}>
                   <img className="whatsapp" src={WhatsApp} alt="" />
-                  <Button href="" variant="light">Hubungi Saya</Button>
+                  <Button href="http://wa.me/+6282337482911" variant="light">Hubungi Saya</Button>
                 </Col>
                 <Col className='d-flex flex-column align-items-center' lg={12}>
                   <img className="shoppe" src={Shoppe} alt="" />

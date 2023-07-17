@@ -15,12 +15,12 @@ function Product() {
       <Container>
         <Row>
 
-          <Col className="align-self-center p-5" lg={6}>
+          <Col className="align-self-center p-3" lg={6}>
             <Container className='d-flex justify-content-start'>
               <h3 className='content-header'>Tentang Produk</h3>
             </Container>
             {/* U can use justify-content */}
-            <Container className=''>
+            <Container className='justify-content'>
               <p>Keripik Barokah adalah keripik singkong rumahan yang dibuat dengan menggunakan bahan utama singkong pilihan yang diolah secara tradisional tanpa menggunakan bahan pengawet.</p>
               <p>Keripik ini hadir dengan 4 varian rasa yang beragam, yaitu manis, pedas manis, original bawang, dan suka-suka (Balado).</p>
             </Container>

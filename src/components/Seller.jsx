@@ -13,7 +13,7 @@ function Product() {
             <img className="seller-photo" src={SellerPhoto} alt="Ibu ..."/>
           </Col>
 
-          <Col className="align-self-center p-5" lg={6}>
+          <Col className="align-self-center p-3" lg={6}>
             {/* U can use justify-content */}
             <Container className='d-flex justify-content-start'>
               <h3 className='content-header'>Tentang Toko</h3>
