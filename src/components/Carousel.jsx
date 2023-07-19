@@ -1,6 +1,9 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselPic from '../assets/Product1.jpg'
+import Manis from '../assets/Manis.png'
+import PedasManis from '../assets/PedasManis.png'
+import OriginalBawang from '../assets/OriginalBawang.png'
 
 function CarouselProduk(){
   return (
@@ -10,7 +13,7 @@ function CarouselProduk(){
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={CarouselPic}
+            src={Manis}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -21,7 +24,7 @@ function CarouselProduk(){
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={CarouselPic}
+            src={PedasManis}
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -32,7 +35,7 @@ function CarouselProduk(){
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={CarouselPic}
+            src={OriginalBawang}
             alt="Third slide"
           />
           <Carousel.Caption>
