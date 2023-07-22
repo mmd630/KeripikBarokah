@@ -1,9 +1,9 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import CarouselPic from '../assets/Product1.jpg'
 import Manis from '../assets/Manis.png'
 import PedasManis from '../assets/PedasManis.png'
 import OriginalBawang from '../assets/OriginalBawang.png'
+import Balado from '../assets/Balado.png'
 
 function CarouselProduk(){
   return (
@@ -46,7 +46,7 @@ function CarouselProduk(){
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={CarouselPic}
+            src={Balado}
             alt="Third slide"
           />
           <Carousel.Caption>
