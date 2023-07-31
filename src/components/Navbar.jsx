@@ -6,7 +6,7 @@ function NavigationBar() {
         <Navbar className='navbar py-3' expand="lg" sticky="top">
             <Container>
                 <Navbar.Brand href="#home">
-                    <b>Keripik Barokah</b>
+                    <b>Kripik Barokah</b>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">

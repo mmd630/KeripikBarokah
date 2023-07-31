@@ -21,7 +21,7 @@ function Product() {
             </Container>
             {/* U can use justify-content */}
             <Container className='justify-content'>
-              <p>Keripik Barokah adalah keripik singkong rumahan yang dibuat dengan menggunakan bahan utama singkong pilihan yang diolah secara tradisional tanpa menggunakan bahan pengawet.</p>
+              <p>Kripik Barokah adalah keripik singkong rumahan yang dibuat dengan menggunakan bahan utama singkong pilihan yang diolah secara tradisional tanpa menggunakan bahan pengawet.</p>
               <p>Keripik ini hadir dengan 4 varian rasa yang beragam, yaitu manis, pedas manis, original bawang, dan suka-suka (Balado).</p>
             </Container>
           </Col>
